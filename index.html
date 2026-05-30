@@ -1,1 +1,74 @@
 <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.css" integrity="sha384-vlBdW0r3AcZO/HboRPznQNowvexd3fY8qHOWkBi5q7KGgqJ+F48+DceybYmrVbmB" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/katex.min.js" integrity="sha384-AtrdNsnxl/75rvBneBVH7DtOvCxSVahR2zWqle1coBKd8DEmLoviqNeJSx64gNAs" crossorigin="anonymous"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.17.0/dist/contrib/auto-render.min.js" integrity="sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+    <h1>Math(ℯ)'M𝒾ss𝒾ons</h1>
+
+        <section class="mission">
+            <h2>Test1</h2>
+
+            <div class="question">
+
+                <h3>Question 1</h3>
+            
+                <p>
+                    On considère la fonction. Trouver une formule explicite.
+                </p>
+            
+                \[
+                    f(x)=\int_0^x t\cos(t)\,dt
+                \]
+            
+                <button class="solution-btn">
+                    Voir la correction
+                </button>
+            
+                <div class="solution">
+            
+                    <p>
+                        Solution:
+                    </p>
+            
+                    \[
+                        f(x)=x\sin(x)+\cos(x)-1
+                    \]
+            
+                </div>
+            
+            </div>
+
+            <div class="question">
+                <h3>Question 2</h3>
+                <div id="q2"></div>
+            </div>
+        </section>
+
+        <section class="mission">
+            <h2>Test2</h2>
+
+            <div class="question">
+                <h3>Question 3</h3>
+                <div id="q3"></div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
